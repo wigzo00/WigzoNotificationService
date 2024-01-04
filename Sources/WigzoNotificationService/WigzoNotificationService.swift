@@ -1,6 +1,6 @@
 import UserNotifications
 
-class NotificationService: UNNotificationServiceExtension {
+class WigzoNotificationService: UNNotificationServiceExtension {
     
     var contentHandler: ((UNNotificationContent) -> Void)?
     var bestAttemptContent: UNMutableNotificationContent?
